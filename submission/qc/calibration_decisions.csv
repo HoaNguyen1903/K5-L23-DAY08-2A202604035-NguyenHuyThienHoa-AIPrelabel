@@ -1,0 +1,5 @@
+case_id,image,nguon,van_de,quyet_dinh,quy_tac_ghi_vao_guideline,phien_ban_guideline
+CAL-01,img_013|img_004,loi_may,YOLO26 gọi tuk-tuk và xe ba gác là car hoặc truck,Luôn gán three_wheeler cho xe ba bánh chở khách hoặc chở hàng,Mục 2: Xe ba bánh có mui che hoặc thùng chở hàng gắn liền vẫn phân loại three_wheeler,v1.1
+CAL-02,img_008|img_032,cau_hoi_mo,Hàng hoá nhô ra khỏi xe (thùng hàng giỏ rổ) có tính vào box xe không,Box xe ôm cả hàng gắn cố định; hàng nhô ra quá 20% thân xe thì chỉ vẽ theo khung xe,Mục 4.1.5: Quy tắc ranh giới box xe khi chở hàng cồng kềnh,v1.1
+CAL-03,img_010|img_016,cau_hoi_mo,Xe đạp điện và xe máy điện nhỏ phân loại bicycle hay motorbike,Có bàn đạp cơ gán bicycle; vận hành thuần động cơ điện không bàn đạp gán motorbike,Mục 2: Tiêu chí phân định phương tiện điện 2 bánh theo bàn đạp cơ học,v1.1
+CAL-04,img_025|img_029,bay_lot,Bẫy box lỏng (loose box) bị lọt khi duyệt nhanh,Phóng to 200% để kiểm tra 4 cạnh ôm sát mép vật trước khi Accept,Mục 4.1.1: Quy trình kiểm tra ôm sát biên vật sai số tối đa 2px,v1.1
